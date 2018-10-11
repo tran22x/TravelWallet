@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "942358746572",
+    "firebase_url": "https://travelcredit-bd8d0.firebaseio.com",
+    "project_id": "travelcredit-bd8d0",
+    "storage_bucket": "travelcredit-bd8d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942358746572:android:57cca6f8e75394f5",
+        "android_client_info": {
+          "package_name": "com.example.olive.travelcredit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942358746572-1h6d0e5belgadm84fa7qsvjsfmt61ppk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.olive.travelcredit",
+            "certificate_hash": "5dfd889f8e5a7613b1293d4cd0797a5fa9250f08"
+          }
+        },
+        {
+          "client_id": "942358746572-kgsp08nr791q3ahaaam1h813g1rtmsl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdryqVQjpUjp968PtTXfjXIuhB4sPgGBg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942358746572-kgsp08nr791q3ahaaam1h813g1rtmsl5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

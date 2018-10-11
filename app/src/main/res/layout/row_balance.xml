@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_gravity="center"
+    android:layout_margin="6dp"
+                                    android:elevation="6dp"
+    card_view:cardCornerRadius="6dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvFriend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Friend"
+                android:paddingLeft="30dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tvBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignBaseline="@+id/tvFriend"
+                android:textStyle="bold"
+                android:paddingRight="20dp"
+                android:textColor="@color/tealMain"
+                android:text="Balance"
+                android:textSize="25dp"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
